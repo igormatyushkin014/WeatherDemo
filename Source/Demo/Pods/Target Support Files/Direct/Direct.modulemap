@@ -1,0 +1,6 @@
+framework module Direct {
+  umbrella header "Direct-umbrella.h"
+
+  export *
+  module * { export * }
+}

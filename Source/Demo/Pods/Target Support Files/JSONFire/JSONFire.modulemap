@@ -1,0 +1,6 @@
+framework module JSONFire {
+  umbrella header "JSONFire-umbrella.h"
+
+  export *
+  module * { export * }
+}
