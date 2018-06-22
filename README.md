@@ -16,7 +16,7 @@ The project includes custom `UIView` subclasses: [WeatherPanel](/Source/Demo/Dem
 
 [Weather](/Source/Demo/Demo/Data/Models/Weather.swift) is the only data model currently presented in the app. Actually, `Weather` is a structure that includes information about temperature, wind speed, etc.
 
-Also, `Weather` can be easily retrieved from JSON data returned by `OpenWeatherMap` service. For achieving this goal, you can simply use a static constructor: `Weather.from(json: _)`.
+Also, `Weather` can be easily retrieved from JSON data returned by `OpenWeatherMap` service. For achieving this goal, you can simply use static constructor: `Weather.from(json: _)`.
 
 ### Networking
 
