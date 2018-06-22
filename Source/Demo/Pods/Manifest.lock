@@ -3,21 +3,17 @@ PODS:
   - Degree (1.0)
   - Direct (1.6)
   - Hammer (1.0)
-  - JSONFire (1.1):
-    - Alamofire (~> 4.6)
-    - SwiftyJSON (~> 4.0)
   - Pixels (1.4)
-  - Sensitive (6.1)
   - SwiftyJSON (4.1.0)
   - Visuality (5.4.1)
 
 DEPENDENCIES:
+  - Alamofire (= 4.7.2)
   - Degree (= 1.0)
   - Direct (= 1.6)
   - Hammer (= 1.0)
-  - JSONFire (= 1.1)
   - Pixels (= 1.4)
-  - Sensitive (= 6.1)
+  - SwiftyJSON (= 4.1.0)
   - Visuality (= 5.4.1)
 
 SPEC REPOS:
@@ -26,9 +22,7 @@ SPEC REPOS:
     - Degree
     - Direct
     - Hammer
-    - JSONFire
     - Pixels
-    - Sensitive
     - SwiftyJSON
     - Visuality
 
@@ -37,12 +31,10 @@ SPEC CHECKSUMS:
   Degree: 1e9a935ae218315901016c2218aae52c0a918863
   Direct: e00ebfe3715d9bac19533ba71e6548217f4a843d
   Hammer: 1aec0fb6e01ddfae6796d2aa008f44b8fd00090b
-  JSONFire: 53a8122035cfb8b1b3d59ee1f975dcde4a4dab36
   Pixels: 283f9341b02b7b5534320b940a92609b6d63d0a1
-  Sensitive: 1096cff226f4185fa24753e356973a61a73e5639
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   Visuality: 6ad92baebda9924ca92b2c7ab966140b4e98cf0f
 
-PODFILE CHECKSUM: 53621ba34f9adb8a5f28adbb42aa1ec01f75b59e
+PODFILE CHECKSUM: 93fca0c604e5a864c7e4928b92579da064ce4ef0
 
 COCOAPODS: 1.5.3

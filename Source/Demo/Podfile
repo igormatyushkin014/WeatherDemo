@@ -8,12 +8,11 @@ target 'Demo' do
   use_frameworks!
 
   pod 'Visuality', '5.4.1'
-  pod 'Sensitive', '6.1'
   pod 'Pixels', '1.4'
   pod 'Degree', '1.0'
   pod 'Hammer', '1.0'
   pod 'Direct', '1.6'
-  pod 'Alamofire', '4.7.2',
+  pod 'Alamofire', '4.7.2'
   pod 'SwiftyJSON', '4.1.0'
 
 end

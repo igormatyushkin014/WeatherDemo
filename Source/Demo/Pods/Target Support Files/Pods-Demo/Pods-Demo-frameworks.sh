@@ -147,9 +147,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Degree/Degree.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Direct/Direct.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hammer/Hammer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONFire/JSONFire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Pixels/Pixels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sensitive/Sensitive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Visuality/Visuality.framework"
 fi
@@ -158,9 +156,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Degree/Degree.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Direct/Direct.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hammer/Hammer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONFire/JSONFire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Pixels/Pixels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sensitive/Sensitive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Visuality/Visuality.framework"
 fi
