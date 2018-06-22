@@ -4,6 +4,14 @@ This is a very simple app written in Swift to demonstrate usage of [Alamofire](h
 
 ## Architecture
 
+### View Controllers
+
+The only view controller used in the source code is [MainViewController](/Source/Demo/Demo/ViewControllers/Main/MainViewController.swift). Its extensions define [appearance](/Source/Demo/Demo/ViewControllers/Main/MainViewControllerExtensionStyle.swift) and [content](/Source/Demo/Demo/ViewControllers/Main/MainViewControllerExtensionContent.swift) for the main screen.
+
+### Views
+
+The project includes custom `UIView` subclasses: [WeatherPanel](/Source/Demo/Demo/Views/WeatherPanel) and [WaitingPanel](/Source/Demo/Demo/Views/WaitingPanel/WaitingPanel.swift). Each of custom `UIView` components has special extension which defines its appearance. Check out extension for [WeatherPanel](/Source/Demo/Demo/Views/WeatherPanel/WeatherPanelExtensionStyle.swift) and similar thing for [WaitingPanel](/Source/Demo/Demo/Views/WaitingPanel/WaitingPanelExtensionStyle.swift).
+
 ### Networking
 
 Each API client is a bridge between developer and network service. API clients should be subclassed from [BaseApiClient](/Source/Demo/Demo/Networking/BaseApiClient.swift). The API client for `OpenWeatherMap` is presented by [OpenWeatherApiClient](/Source/Demo/Demo/Networking/OpenWeatherApiClient.swift) class.
