@@ -12,11 +12,17 @@ The only view controller used in the source code is [MainViewController](/Source
 
 The project includes custom `UIView` subclasses: [WeatherPanel](/Source/Demo/Demo/Views/WeatherPanel) and [WaitingPanel](/Source/Demo/Demo/Views/WaitingPanel/WaitingPanel.swift). Each of custom `UIView` components has special extension which defines its appearance. Check out extension for [WeatherPanel](/Source/Demo/Demo/Views/WeatherPanel/WeatherPanelExtensionStyle.swift) and similar thing for [WaitingPanel](/Source/Demo/Demo/Views/WaitingPanel/WaitingPanelExtensionStyle.swift).
 
+### Models
+
+[Weather](/Source/Demo/Demo/Data/Models/Weather.swift) is the only data model currently presented in the app. Actually, `Weather` is a structure that includes information about temperature, wind speed, etc.
+
+Also, `Weather` can be easily retrieved from JSON data returned by `OpenWeatherMap` service. For achieving this goal, you can simply use a static constructor: `Weather.from(json: _)`.
+
 ### Networking
 
 Each API client is a bridge between developer and network service. API clients should be subclassed from [BaseApiClient](/Source/Demo/Demo/Networking/BaseApiClient.swift). The API client for `OpenWeatherMap` is presented by [OpenWeatherApiClient](/Source/Demo/Demo/Networking/OpenWeatherApiClient.swift) class.
 
-Under the hood, [OpenWeatherApiClient](/Source/Demo/Demo/Networking/OpenWeatherApiClient.swift) uses [Alamofire](https://github.com/Alamofire/Alamofire) and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON).
+Under the hood, `OpenWeatherApiClient` uses [Alamofire](https://github.com/Alamofire/Alamofire) and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON).
 
 ### Configuration
 
