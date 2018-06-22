@@ -14,10 +14,8 @@
 		690BD23120DCD9B00029170F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690BD23020DCD9B00029170F /* LaunchScreen.xib */; };
 		690BD23420DD02320029170F /* SceneExtensionMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD23320DD02320029170F /* SceneExtensionMain.swift */; };
 		690BD23720DD029D0029170F /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD23620DD029D0029170F /* MainNavigationController.swift */; };
-		690BD23A20DD04000029170F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD23920DD04000029170F /* City.swift */; };
 		690BD23C20DD04C30029170F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD23B20DD04C30029170F /* WeatherManager.swift */; };
 		690BD24020DD04E60029170F /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD23F20DD04E60029170F /* AppConfiguration.swift */; };
-		690BD24B20DD10070029170F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD24A20DD10070029170F /* Weather.swift */; };
 		690BD24D20DD238D0029170F /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD24C20DD238D0029170F /* BaseApiClient.swift */; };
 		690BD24F20DD24270029170F /* OpenWeatherApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD24E20DD24270029170F /* OpenWeatherApiClient.swift */; };
 		690BD25420DD2C4D0029170F /* WeatherPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD25320DD2C4D0029170F /* WeatherPanel.swift */; };
@@ -29,6 +27,8 @@
 		690BD26220DD531F0029170F /* WaitingPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690BD26120DD531F0029170F /* WaitingPanel.xib */; };
 		690BD26420DD537C0029170F /* WaitingPanelExtensionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26320DD537C0029170F /* WaitingPanelExtensionStyle.swift */; };
 		690BD26620DD64820029170F /* WeatherPanelExtensionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26520DD64820029170F /* WeatherPanelExtensionStyle.swift */; };
+		690BD26A20DD65B20029170F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26920DD65B20029170F /* Weather.swift */; };
+		690BD26D20DD66500029170F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26C20DD66500029170F /* City.swift */; };
 		890B7C818BD4A277DE6DE511 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB10A2444A7B7DADEFDCE48 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +44,8 @@
 		690BD23020DCD9B00029170F /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		690BD23320DD02320029170F /* SceneExtensionMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneExtensionMain.swift; sourceTree = "<group>"; };
 		690BD23620DD029D0029170F /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		690BD23920DD04000029170F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		690BD23B20DD04C30029170F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		690BD23F20DD04E60029170F /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
-		690BD24A20DD10070029170F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		690BD24C20DD238D0029170F /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
 		690BD24E20DD24270029170F /* OpenWeatherApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherApiClient.swift; sourceTree = "<group>"; };
 		690BD25320DD2C4D0029170F /* WeatherPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPanel.swift; sourceTree = "<group>"; };
@@ -59,6 +57,8 @@
 		690BD26120DD531F0029170F /* WaitingPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaitingPanel.xib; sourceTree = "<group>"; };
 		690BD26320DD537C0029170F /* WaitingPanelExtensionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingPanelExtensionStyle.swift; sourceTree = "<group>"; };
 		690BD26520DD64820029170F /* WeatherPanelExtensionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPanelExtensionStyle.swift; sourceTree = "<group>"; };
+		690BD26920DD65B20029170F /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		690BD26C20DD66500029170F /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D2DAD8145B3EBCF5A4C7EC05 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +112,10 @@
 		690BD21720DCD8FB0029170F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				690BD25720DD3B530029170F /* Utils */,
 				690BD23E20DD04DD0029170F /* App */,
+				690BD26B20DD663C0029170F /* Types */,
+				690BD26720DD65810029170F /* Data */,
+				690BD25720DD3B530029170F /* Utils */,
 				690BD23D20DD04D50029170F /* Networking */,
 				690BD23820DD03F90029170F /* Engine */,
 				690BD23220DD02220029170F /* Scenes */,
@@ -166,9 +168,7 @@
 		690BD23820DD03F90029170F /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				690BD23920DD04000029170F /* City.swift */,
 				690BD23B20DD04C30029170F /* WeatherManager.swift */,
-				690BD24A20DD10070029170F /* Weather.swift */,
 			);
 			path = Engine;
 			sourceTree = "<group>";
@@ -225,6 +225,30 @@
 				690BD26120DD531F0029170F /* WaitingPanel.xib */,
 			);
 			path = WaitingPanel;
+			sourceTree = "<group>";
+		};
+		690BD26720DD65810029170F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				690BD26820DD65810029170F /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		690BD26820DD65810029170F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				690BD26920DD65B20029170F /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		690BD26B20DD663C0029170F /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				690BD26C20DD66500029170F /* City.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,15 +378,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				690BD23C20DD04C30029170F /* WeatherManager.swift in Sources */,
+				690BD26A20DD65B20029170F /* Weather.swift in Sources */,
 				690BD25D20DD40D10029170F /* MainViewControllerExtensionContent.swift in Sources */,
 				690BD23420DD02320029170F /* SceneExtensionMain.swift in Sources */,
 				690BD24F20DD24270029170F /* OpenWeatherApiClient.swift in Sources */,
 				690BD25920DD3B600029170F /* TemperatureConverter.swift in Sources */,
-				690BD24B20DD10070029170F /* Weather.swift in Sources */,
 				690BD25B20DD40B10029170F /* MainViewControllerExtensionStyle.swift in Sources */,
 				690BD26020DD530F0029170F /* WaitingPanel.swift in Sources */,
 				690BD26420DD537C0029170F /* WaitingPanelExtensionStyle.swift in Sources */,
-				690BD23A20DD04000029170F /* City.swift in Sources */,
+				690BD26D20DD66500029170F /* City.swift in Sources */,
 				690BD21920DCD8FB0029170F /* AppDelegate.swift in Sources */,
 				690BD23720DD029D0029170F /* MainNavigationController.swift in Sources */,
 				690BD24020DD04E60029170F /* AppConfiguration.swift in Sources */,
