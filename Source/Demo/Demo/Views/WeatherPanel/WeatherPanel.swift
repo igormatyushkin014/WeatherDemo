@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Hammer
-import Pixels
 
 class WeatherPanel: UIView {
     
@@ -142,92 +140,6 @@ class WeatherPanel: UIView {
     // MARK: Actions
     
     // MARK: Protocol implementation
-    
-}
-
-extension WeatherPanel {
-    
-    struct Style {
-        
-        struct View {
-            
-            static var backgroundColor: UIColor {
-                get {
-                    return .clear
-                }
-            }
-            
-        }
-        
-        struct CityLabel {
-            
-            static var textAttributes: [NSAttributedStringKey : Any] {
-                get {
-                    return [
-                        .font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
-                        .foregroundColor: UIColor.Material.Gray._900,
-                        .kern: 0.5,
-                        .paragraphStyle: NSMutableParagraphStyle().hmr.use(closure: { (paragraphStyle) in
-                            paragraphStyle.alignment = .center
-                        }).object
-                    ]
-                }
-            }
-            
-        }
-        
-        struct TemperatureLabel {
-            
-            static var textAttributes: [NSAttributedStringKey : Any] {
-                get {
-                    return [
-                        .font: UIFont.systemFont(ofSize: 17.0, weight: .regular),
-                        .foregroundColor: UIColor.Material.Gray._800,
-                        .kern: 0.5,
-                        .paragraphStyle: NSMutableParagraphStyle().hmr.use(closure: { (paragraphStyle) in
-                            paragraphStyle.alignment = .center
-                        }).object
-                    ]
-                }
-            }
-            
-        }
-        
-        struct HumidityLabel {
-            
-            static var textAttributes: [NSAttributedStringKey : Any] {
-                get {
-                    return [
-                        .font: UIFont.systemFont(ofSize: 17.0, weight: .regular),
-                        .foregroundColor: UIColor.Material.Gray._800,
-                        .kern: 0.5,
-                        .paragraphStyle: NSMutableParagraphStyle().hmr.use(closure: { (paragraphStyle) in
-                            paragraphStyle.alignment = .center
-                        }).object
-                    ]
-                }
-            }
-            
-        }
-        
-        struct WindSpeedLabel {
-            
-            static var textAttributes: [NSAttributedStringKey : Any] {
-                get {
-                    return [
-                        .font: UIFont.systemFont(ofSize: 17.0, weight: .regular),
-                        .foregroundColor: UIColor.Material.Gray._800,
-                        .kern: 0.5,
-                        .paragraphStyle: NSMutableParagraphStyle().hmr.use(closure: { (paragraphStyle) in
-                            paragraphStyle.alignment = .center
-                        }).object
-                    ]
-                }
-            }
-            
-        }
-        
-    }
     
 }
 

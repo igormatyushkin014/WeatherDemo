@@ -28,6 +28,7 @@
 		690BD26020DD530F0029170F /* WaitingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD25F20DD530F0029170F /* WaitingPanel.swift */; };
 		690BD26220DD531F0029170F /* WaitingPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690BD26120DD531F0029170F /* WaitingPanel.xib */; };
 		690BD26420DD537C0029170F /* WaitingPanelExtensionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26320DD537C0029170F /* WaitingPanelExtensionStyle.swift */; };
+		690BD26620DD64820029170F /* WeatherPanelExtensionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BD26520DD64820029170F /* WeatherPanelExtensionStyle.swift */; };
 		890B7C818BD4A277DE6DE511 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB10A2444A7B7DADEFDCE48 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		690BD25F20DD530F0029170F /* WaitingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingPanel.swift; sourceTree = "<group>"; };
 		690BD26120DD531F0029170F /* WaitingPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaitingPanel.xib; sourceTree = "<group>"; };
 		690BD26320DD537C0029170F /* WaitingPanelExtensionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingPanelExtensionStyle.swift; sourceTree = "<group>"; };
+		690BD26520DD64820029170F /* WeatherPanelExtensionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPanelExtensionStyle.swift; sourceTree = "<group>"; };
 		D2DAD8145B3EBCF5A4C7EC05 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				690BD25320DD2C4D0029170F /* WeatherPanel.swift */,
+				690BD26520DD64820029170F /* WeatherPanelExtensionStyle.swift */,
 				690BD25520DD2C5A0029170F /* WeatherPanel.xib */,
 			);
 			path = WeatherPanel;
@@ -365,6 +368,7 @@
 				690BD24020DD04E60029170F /* AppConfiguration.swift in Sources */,
 				690BD25420DD2C4D0029170F /* WeatherPanel.swift in Sources */,
 				690BD24D20DD238D0029170F /* BaseApiClient.swift in Sources */,
+				690BD26620DD64820029170F /* WeatherPanelExtensionStyle.swift in Sources */,
 				690BD22E20DCD9250029170F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +498,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,7 +517,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
