@@ -28,8 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: Object variables & properties
     
-    var window: UIWindow?
-    
     // MARK: Public object methods
     
     // MARK: Private object methods
